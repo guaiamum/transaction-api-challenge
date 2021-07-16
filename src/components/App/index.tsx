@@ -38,7 +38,7 @@ function App() {
                 transaction={t}
               />
               :
-              <Skeleton />)
+              <Skeleton key={`skltn-${i}`}/>)
           }
           )
       }
