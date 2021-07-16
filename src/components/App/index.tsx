@@ -23,7 +23,7 @@ function App() {
   const getIdx = animationDelayOrchestrator()
   return (
     <main className="App">
-      <h1>Transactions</h1>
+      <h1>Transactsadasdions</h1>
       {
         error
           ? <p className="App-errorHeading">{error}!</p>
